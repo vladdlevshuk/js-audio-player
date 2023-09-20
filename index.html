@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Audio Player</title>
+    <link rel="icon" type="image/x-icon" href="src/img/favicon.png">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="audio-container">
+        <div class="audio-info">
+            <img id="cover-image" src="" alt="Track cover">
+            <h2 id="track-title">Название трека</h2>
+            <p id="track-author">Автор трека</p>
+        </div>
+        <audio id="custom-audio" src=""></audio>
+        <div class="controls">
+            <div class="left-controls">
+                <button id="prev-button" class="nav">
+                    <img src="src/img/prev.png" width="20" height="20">
+                </button>
+                <button id="play-pause-button" class="play">
+                    <img id="play-pause-image" src="src/img/play.png" width="20" height="20">
+                </button>
+                <button id="next-button" class="nav">
+                    <img src="src/img/next.png" width="20" height="20">
+                </button>
+            </div>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <div class="time">
+                <span id="current-time">0:00</span> / <span id="duration">0:00</span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="https://github.com/vladdlevshuk"><img src="src/img/github.png" alt="Github Icon" width="35" height="35"></a>
+        <span>© 2023</span>
+        <a href="https://rs.school/js/"><img src="src/img/rsschool.svg" alt="Courses Icon" width="70" height="35"></a>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

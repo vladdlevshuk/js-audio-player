@@ -1,0 +1,119 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0 20px 0 20px;
+}
+.audio-container{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+.audio-info{
+    margin-bottom: 20px;
+}
+#cover-image{
+    max-width: 100%;
+    border-radius: 8px;
+}
+#track-title{
+    font-size: 24px;
+    margin: 10px 0;
+}
+#track-author{
+    font-size: 18px;
+    color: #777;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.left-controls{
+    display: flex;
+}
+.nav, .play{
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 10px;
+    padding: 0;
+    transition: color 0.3s;
+    width: 25px;
+    height: 40px;
+}
+.nav img, .play img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.nav:hover, .play:hover{
+    color: #0056b3;
+}
+#prev-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#play-pause-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#next-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.progress-bar{
+    background-color: #ccc;
+    border-radius: 4px;
+    flex-grow: 1;
+    height: 8px;
+    margin: 0 10px;
+    position: relative;
+    cursor: pointer;
+}
+.progress{
+    background-color: #007bff;
+    border-radius: 4px;
+    height: 100%;
+    width: 0;
+}
+.time{
+    font-size: 16px;
+    color: #777;
+}
+footer{
+    max-width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto 0 auto;
+    padding-left: 30px;
+}
+footer a{
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 10px;
+}
+footer span{
+    font-size: 20px;
+    color: #777;
+}
+@media screen and (max-width: 450px) {
+    .controls {
+        flex-direction: column;
+    }
+    .progress-bar {
+        margin: 18px 0 18px 0;
+        width: 80%;
+    }
+}

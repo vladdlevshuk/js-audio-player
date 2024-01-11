@@ -24,4 +24,4 @@ The project was brought to life using the following technologies and tools:
 
 ## Deployment
 
-To explore the project, please click on the following link: [Audio Player](https://vladdlevshuk.github.io/JS-Audio-Player/)
+To explore the project, please click on the following link: [Audio Player](https://vladdlevshuk.github.io/js-audio-player/)
